@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'quicksand-light';
+  src: url(fonts/quicksand/Quicksand_Light.otf);
+}
+
+@font-face {
+  font-family: 'quicksand-book';
+  src: url(fonts/quicksand/Quicksand_Book.otf);
+}
+
+@font-face {
+  font-family: 'madinah';
+  src: url(fonts/madinah_authentic/Madinah\ Authentic.otf);
+}
+
+/* Estilização geral para todos os tamanhos de ecrãs*/
+
+body {
+  font-family: 'quicksand-book', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'madinah', serif;
+}
+
+.dropdown-item {
+  font-size: 0.85rem;
+}
+
+hr {
+  width: 98%;
+}
+
+header {
+  margin: 0.6rem 0rem;
+}
+
+.form-control::placeholder {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.full-height-img {
+  height: 100vh; /* 100% da altura da viewport */
+  object-fit: cover; /* Faz a imagem cobrir a altura sem distorcer */
+  width: 100%; /* Garante que a largura da imagem seja 100% */
+}
+
+.col.left {
+  padding-right: 0;
+}
+
+.col.right {
+  padding-left: 0;
+}
+
+.h1 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+}
+
+.h3 {
+font-size: 1.2rem;
+font-weight: 300;
+letter-spacing: 0.3rem; 
+}
+
+.albuns {
+  font-size: 0.9rem
+}
+
+.bi {
+  color: lightslategray;
+}
+
+.label {
+  height: 4.5rem;
+}
+
+.btn {
+  font-size: 0.8rem;
+}
+.emails {
+  padding-right: 0.5rem;
+}
+
+.botao {
+  margin-top: 4rem;
+  height: 2rem;
+}
+
+/* Estilização para ecrãs até 576px ("Extra small") */
+
+@media (max-width: 576px) {
+  .bio1, .bio2, .disco {
+    font-size: 0.9rem;
+  }
+  .h1, .h2 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+  }
+  .email {
+    font-size: 0.9rem;
+  }
+  .form-label {
+    font-size: 0.9rem;
+  }
+  .section-agenda .row {
+    font-size: 0.9rem;
+    margin: 0 1rem;
+    justify-content: end;
+  }
+  .section-agenda .row .d-flex{
+    text-align: end;
+  }
+  .section-agenda .btn {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+  }
+  .section-agenda strong {
+    font-size: 0.8rem;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  .morada, .tel, .nome-email, .email, .copyright, .form-label {
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilização para ecrãs entre 576 e 768px ("Small - sm") */
+
+@media (min-width: 576px) {
+  .bio1, .bio2, .disco {
+    font-size: 0.9rem;
+  }
+  .h1, .h2 {
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+  }
+  .section-agenda .row .d-flex{
+    text-align: end;
+  }
+  .section-agenda .btn {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+  }
+  .section-agenda strong {
+    font-size: 0.9rem;
+  }
+  .morada, .tel, .nome-email, .email, .copyright, .form-label {
+    font-size: 1rem;
+  }
+  
+} 
+
+/* Estilização para ecrãs entre 768 e 992px ("Medium - md") */
+
+@media (min-width: 768px) {
+  .bio1, .bio2, .disco {
+    font-size: 1rem;
+  }
+  .h1, .h2 {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+  .formulario, .contatos {
+    font-size: 1.6rem;
+  }
+  .email {
+    font-size: 0.9rem;
+  }
+  .form-label {
+    font-size: 0.9rem;
+  }
+  .section-agenda strong {
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilização para ecrãs com mais de 992px ("Large - lg") */
+
+@media (min-width: 992px) {
+  .h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+  }
+}
+
+/* Estilização para ecrãs com mais de 992px ("Extra large - xl") */
+
+@media (min-width: 1200px) {
+  .bio1, .bio2, .disco, .albuns {
+    font-size: 1.2rem;
+  }
+  .albuns {
+    font-size: 1rem;
+  }
+  .h1, .h2 {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+}
+

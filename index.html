@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Cyntia Mourão">
+  <meta name="description" content="Caso prático: desenvolvimento de homepage de website com recurso a HTML e CSS">
+  <meta name="keywords" content="Loreena McKennitt, music, celtic, canadian">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+  crossorigin="anonymous">  
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+  <title>Caso Prático #2</title>
+
+  <script src="https://kit.fontawesome.com/26c280db12.js" crossorigin="anonymous"></script>  
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="container-fluid">
+      
+        <a class="navbar-brand mx-sm-4 mx-xxl-5" href="#">Loreena Mckennitt</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mx-sm-4 mx-md-4" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active px-lg-2 px-xl-3" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-lg-2 px-xl-3" href="biografia.html">Biografia</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-lg-2 px-xl-3" href="musica.html">Música</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-lg-2 px-xl-3" href="agenda.html">Agenda</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-lg-2 px-xl-3" href="noticias.html">Notícias</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-lg-2 px-xl-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Loja
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="loja-cds.html">CDs</a></li>
+                <li><a class="dropdown-item" href="loja-dvds.html">DVDs</a></li>
+                <li><a class="dropdown-item" href="loja-vinil.html">Vinil</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="loja-outros.html">Outros formatos</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex me-xxl-5">
+            <input class="form-control me-lg-2 mx-lg-5" type="search" placeholder="" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Pesquisar</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+    <hr class="mx-auto">
+  </header>
+
+  <main>
+
+    <div class="container-fluid section-bio-disco">
+
+      <div class="row">
+
+        <div class="left col-sm-12 col-md-6 d-flex flex-column justify-content-center  mb-sm-3 mb-md-0 ms-md-0 ps-md-0">
+
+          <p class="h1 lh-lg px-5 text-center">Biografia</p>
+
+          <p class="lh-lg px-5 px-md-3 text-center bio1"><strong>Loreena Mckennitt</strong> é uma cantora, compositora e multi-instrumentista canadiana, conhecida pela sua música que combina elementos de folk celta, world music e música medieval. Nascida em Morden, Manitoba, em 1957, cresceu com uma paixão pela música celta e pelas tradições culturais de todo o mundo.</p>
+
+          <p class="lh-lg px-5 px-md-3 text-center bio2">O seu estilo único é marcado pela utilização de instrumentos tradicionais e por influências diversas, desde a música da Europa medieval até sonoridades do Médio Oriente. As suas atuações ao vivo são conhecidas pela atmosfera envolvente, transportando o público numa jornada musical e espiritual profunda.</p>
+        </div>
+
+        <div class="right col-sm-12 mb-sm-3 col-md-6 mb-md-0 ms-md-0 ps-md-0">
+          <img src="images/loreena-mckennitt-01.jpg" class="img-fluid full-height-img" id="homepage-img" alt="Loreena Mckennitt play harp">
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="left col-md-6 col-sm-12 order-2 order-sm-2 order-md-1 mb-sm-3 mb-md-0 pe-md-0">
+          <img src="images/3208.jpg" class="img-fluid full-height-img" id="homepage-img" alt="Loreena Mckennitt play harp">
+        </div>
+
+        <div class="right col-md-6 col-sm-12 order-sm-1 d-flex flex-column justify-content-center order-md-2 mb-sm-3 mb-md-0 pe-md-0">
+
+          <p class="h1 lh-lg px-5 text-center">Discografia</p>
+
+          <p class="lh-lg px-5 px-md-3 text-center disco">Loreena possui uma discografia rica e variada que se estende por várias décadas. A sua carreira musical teve início em 1985 com o lançamento do seu primeiro álbum, "Elemental". Seguiram-se vários outros, entre os quais:
+          </p>
+
+          <ul class="list-group list-group-flush lh-lg px-5 mb-3 text-center">
+            <li class="list-group-item albuns">"To Drive the Cold Winter Away" (1987)</li>
+            <li class="list-group-item albuns">"Parallel Dreams" (1989)</li>
+            <li class="list-group-item albuns">"The Visit" (1991)</li>
+            <li class="list-group-item albuns">"The Mask and Mirror" (1994)</li>
+            <li class="list-group-item albuns">"The Book of Secrets" (1997)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid blank-line">
+      <div class="row">
+        <div class="col-12"> </div>
+      </div>
+    </div>    
+
+    <hr class="mx-auto">
+
+    <div class="container-sm container-md mx-md-auto mb-md-5 section-agenda row-gap-3">
+
+      <p class="h2 lh-lg px-2 px-md-5 py-lg-3 mt-lg-2 text-center">Agenda de eventos</p>
+
+      <div class="row align-items-center justify-content-between border-bottom pt-1 pb-1 mb-2">
+        <div class="col-2"><strong>20 SET 2024</strong></div>
+        <div class="col-4">Casa da Música</div>
+        <div class="col-4 d-flex justify-content-end">Porto, Portugal</div>
+        <div class="col-2 d-flex justify-content-end"><button type="button" class="btn btn-light btn-outline-secondary ">BILHETES</button></div>
+      </div>
+
+      <div class="row align-items-center justify-content-between border-bottom pt-1 pb-1 mb-2">
+        <div class="col-2"><strong>12 OUT 2024</strong></div>
+        <div class="col-4">Coliseu dos Recreios</div>
+        <div class="col-4 d-flex justify-content-end">Lisboa, Portugal</div>
+        <div class="col-2 d-flex justify-content-end"><button type="button" class="btn btn-light btn-outline-secondary ">BILHETES</button></div>
+      </div>
+
+      <div class="row align-items-center justify-content-between border-bottom pt-1 pb-1 mb-2">
+        <div class="col-2"><strong>17 NOV 2024</strong></div>
+        <div class="col-4">The Red Lion Kings Heath</div>
+        <div class="col-4 d-flex justify-content-end">Birmingham, Reino Unido</div>
+        <div class="col-2 d-flex justify-content-end"><button type="button" class="btn btn-light btn-outline-secondary ">BILHETES</button></div>
+      </div>
+
+      <div class="row align-items-center justify-content-between pt-1 pb-1 mb-2">
+        <div class="col-2"><strong>19 JAN 2025</strong></div>
+        <div class="col-4">Real Jardin Botanico</div>
+        <div class="col-4 d-flex justify-content-end">Madrid, Espanha</div>
+        <div class="col-2 d-flex justify-content-end"><button type="button" class="btn btn-light btn-outline-secondary ">BILHETES</button></div>
+      </div>
+    </div>   
+
+    <hr class="mx-auto my-3">
+
+    <div class="container-sm mx-sm-auto container-md contacts mb-3 mx-md-auto">
+
+      <div class="row px-xl-5 mx-xl-5">
+
+        <div class="col-md-6 px-sm-4 pb-sm-2 ps-md-3 pe-md-0 ps-lg-5 text-center text-sm-center text-md-start">
+          <p class="h2 lh-lg pt-md-3 pb-md-4 mt-md-2 contatos">Contatos</p>
+          <p class="morada">214 West 29th Street Ste. 1203 <br>
+            New York, NY 10001</p>
+          <p class="tel">212.977.8922</p>
+          <p class="nome-email mb-0">MICHAEL KIRSTEN</p>
+          <p class="email">mkirsten@newagency.com</p>
+          <p class="nome-email mb-0">NANCY CURTIS</p>
+          <p class="email">ncurtis@newagency.com</p>
+          <p class="nome-email mb-0">KATE WALKER</p>
+          <p class="email">kwalker@newagency.com</p>
+        </div>
+
+        <div class="col-md-6 px-sm-4 pb-sm-2 pe-md-3 ps-md-0 pe-lg-5 text-center text-sm-center text-md-start">
+          <p class="h2 lh-lg py-md-3 mt-sm-3 mt-md-2 formulario">Formulário de contato</p>
+          <form class="column g-3 border border-1 rounded p-3">
+
+            <div class="col-12 mb-3 label nomes">
+              <div class="row">
+                <div class="col-6">
+                  <label for="inputNome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="inputNome">
+                </div>
+                <div class="col-6">
+                  <label for="inputApelido" class="form-label">Apelido</label>
+                  <input type="text" class="form-control" id="inputApelido">
+                </div>
+              </div>  
+            </div>
+
+            <div class="col-12 mb-3 label email-form">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+
+            <div class="col-12 mb-3 label msg">
+              <label for="inputMsg" class="form-label">Mensagem</label>
+              <textarea rows="3" cols="20" class="form-control" id="inputMsg"></textarea>
+            </div>
+
+            <div class="col-12 label botao">
+              <button type="submit" class="btn btn-secondary w-100">Enviar</button>
+            </div>
+
+          </form>
+        </div>        
+      </div>
+    </div>
+
+  </main>    
+
+  <hr class="mx-auto my-4">
+
+  <footer class="container">
+    <div class="d-flex flex-wrap justify-content-around align-items-center py-2 mt-4 mb-5">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary copyright">© 2024 Cyntia Mourão</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
